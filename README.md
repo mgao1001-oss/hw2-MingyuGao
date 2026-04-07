@@ -1,5 +1,9 @@
 # Week 2: Build and Evaluate a Simple GenAI Workflow
 
+## Video Walkthrough
+
+https://youtube.com/xxxxx
+
 ## Project Overview
 
 This project builds a simple GenAI workflow for summarizing internal meeting notes into structured action items.
