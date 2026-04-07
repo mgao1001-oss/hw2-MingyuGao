@@ -1,4 +1,3 @@
-# hw2-
 # Week 2: Build and Evaluate a Simple GenAI Workflow
 
 ## Project Overview
@@ -26,6 +25,7 @@ The workflow is designed for a team lead or project manager who wants to turn me
 ## Setup
 
 1. Install Python 3.9+
+
 2. Install dependency:
 
 ```bash
