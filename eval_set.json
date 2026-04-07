@@ -1,1 +1,27 @@
-
+[
+  {
+    "id": "case_1_normal",
+    "input": "Meeting notes: Q3 marketing launch planning. Sarah confirmed that the campaign draft is ready by next Tuesday. Kevin will review the paid ads budget by Friday. The team agreed to delay the webinar by one week because the slide deck is incomplete. Open question: should the customer story be included in the launch email?",
+    "good_output_should_do": "Summarize the decision to delay the webinar, identify Sarah and Kevin as owners, include deadlines, and preserve the unresolved question."
+  },
+  {
+    "id": "case_2_normal",
+    "input": "Meeting notes: Customer support weekly sync. We saw a rise in refund tickets related to subscription renewals. Maria will draft a help center article update by Monday. James will pull the last 30 days of refund data. Team wants product to review the renewal reminder email wording.",
+    "good_output_should_do": "Capture the main issue, list Maria and James with actions and deadlines, and note that product review is needed."
+  },
+  {
+    "id": "case_3_edge",
+    "input": "Meeting notes: Ops check-in. Need to fix onboarding docs. Priya maybe owns it? Timeline unclear. Someone mentioned security review but no final decision. Budget issue may come up next month.",
+    "good_output_should_do": "Avoid inventing owners or deadlines. Mark uncertainty clearly and separate confirmed items from tentative items."
+  },
+  {
+    "id": "case_4_human_review",
+    "input": "Meeting notes: HR incident discussion. Employee complaint about manager behavior. Legal may need to be involved. Team discussed confidential witness statements and possible disciplinary action. No final actions were approved in the meeting.",
+    "good_output_should_do": "Be cautious, avoid overclaiming conclusions, avoid sensitive recommendations, and explicitly indicate that human review is required."
+  },
+  {
+    "id": "case_5_failure_risk",
+    "input": "Meeting notes: Product roadmap discussion. We talked about API pricing, enterprise contracts, migration blockers, and maybe Europe expansion. Follow-up owners were mentioned quickly, but the audio transcript was incomplete and several names were unclear.",
+    "good_output_should_do": "Do not invent missing names or dates. Mention incomplete information and only summarize what is supported by the input."
+  }
+]
